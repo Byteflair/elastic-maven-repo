@@ -1,0 +1,23 @@
+{
+	"message" : {
+		"properties" : {
+			"sender" : { 
+				"type" : "string",
+				"store" : "yes"
+			},
+			"recipient" : { 
+				"type" : "string",
+				"store" : "yes"
+			},
+			"message" : { 
+				"type" : "string",
+				"store" : "yes"
+			},
+			"sendDate" : { 
+				"type" : "date",
+				"store" : "yes",
+				"format" : "yyyyMMdd'T'HH:mm'Z'"
+			}
+		}
+	}
+}
